@@ -1,11 +1,11 @@
-# C++ Beginner-Level Assignment
+# C++ Tasks to get start with.
 
 This assignment is designed to help beginner-level students practice their C++ programming skills. It consists of several tasks that cover basic programming concepts. 
 
 ## Task 1: Hello, World!
 Write a program that prints "Hello, World!" to the console.
 
-## Task 2: Sum of Two Numbers
+## Task 2: Table of Two Numbers
 Write a program that takes two numbers as input and prints their sum.
 
 ## Task 3: Swap Two Numbers
@@ -23,37 +23,11 @@ Write a program that prints the Fibonacci series up to a specified number of ter
 ## Task 7: Prime Number
 Write a program that checks whether a given number is prime or not.
 
-## Task 11: Pyramid Pattern
-Write a program that takes a number as input and prints a pyramid pattern using asterisks (\*) like the following example for input 5:
+# Task 8: Bank Account Management: 
+Design a program that simulates a bank account management system, allowing users to create accounts, deposit and withdraw money, check balances, and view transaction history.
 
-    *
-   ***
-  *****
- *******
-*********
+## Task 9: Student Grade Management
+Develop a program that manages student grades, allowing users to calculate average marks, find the highest and lowest marks, and display grades for each student.
 
-
-## Task 12: Square Pattern
-Write a program that takes a number as input and prints a square pattern using asterisks (\*) like the following example for input 4:
-
-****
-****
-****
-****
-
-
-## Task 13: Diamond Pattern
-Write a program that takes a number as input and prints a diamond pattern using asterisks (\*) like the following example for input 5:
-
-    *
-   ***
-  *****
- *******
-*********
- *******
-  *****
-   ***
-    *
-
-
-
+## Task 10: Temperature Conversion
+Write a program that converts temperatures between Celsius, Fahrenheit, and Kelvin, providing a menu-driven interface for the user.
