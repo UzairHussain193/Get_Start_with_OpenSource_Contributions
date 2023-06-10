@@ -44,7 +44,7 @@ Now we have to add changes that we made to the branch so for that we will run fo
 
 Now we have to commit changes, commit message should always be clear, to commit use command below
 
-> git commit -m "resolved the `issue`"
+> git commit -m `any message regarding your change`
 
 ### step 7: Push changes to GitHub
 
