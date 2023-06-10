@@ -9,19 +9,10 @@ Create a program where the computer generates a random number, and the user has 
 ### Task 3. Area and Perimeter Calculator
 Write a program that calculates the area and perimeter of basic shapes such as rectangles, squares, and circles. The program should ask the user for necessary inputs (length, width, radius) and display the results.
 
-### Task 4. Prime Number Generator
-Write a program that generates prime numbers up to a specified limit. The program should display the prime numbers to the user.
-
-### Task 5. Hangman Word Generator
-Write a program that randomly selects a word from a predefined list and displays it as underscores. The user should then be able to guess individual letters in the word and uncover them if correct.
-
-### Task 6. Fibonacci Sequence
-Write a program that generates the Fibonacci sequence up to a specified number of terms. The program should display the sequence to the user.
-
-### Task 7. Password Generator
+### Task 4. Password Generator
 Create a program that generates a random password based on user-specified criteria. The program should allow the user to choose the length and character types (letters, numbers, symbols) for the password.
 
-### Task 8. Grade Calculator
+### Task 5. Grade Calculator
 Develop a program that calculates the average grade based on individual test scores. The program should ask the user for test scores and display the average to the user.
 
 ## Happy Coding!
