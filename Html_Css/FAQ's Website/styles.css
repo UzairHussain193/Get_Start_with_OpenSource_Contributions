@@ -1,0 +1,37 @@
+.container {
+    text-align: center;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+  
+  .heading {
+    color: #333;
+  }
+  
+  .faq-container {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+  }
+  
+  .faq {
+    margin-bottom: 20px;
+  }
+  
+  .question {
+    cursor: pointer;
+    background-color: #ddd;
+    padding: 10px;
+  }
+  
+  .answer {
+    display: none;
+    padding: 10px;
+  }
+  
+  .answer p {
+    margin: 0;
+  }
+  

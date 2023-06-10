@@ -34,7 +34,7 @@ Tips:
 - Add CSS styles to create an attractive layout for the gallery.
 - Consider using CSS Grid or CSS Flexbox to arrange the photos in a grid or masonry layout.
 
-## Task 8: FAQ Page
+## Task 5: FAQ Page
 Design a Frequently Asked Questions (FAQ) page, with a list of questions and answers that can be expanded or collapsed for easy navigation.
 
 Tips:
@@ -42,7 +42,7 @@ Tips:
 - Apply CSS styles to create an organized and visually appealing layout.
 - Consider using CSS transitions or JavaScript to add interactivity to the expand/collapse functionality.
 
-## Task 10: Contact Form
+## Task 6: Contact Form
 Design a webpage with a contact form where users can submit their name, email, and a message. Include validation to ensure all fields are filled correctly.
 
 Tips:
