@@ -5,7 +5,7 @@ This assignment is designed to help beginner-level students practice their C++ p
 ### Task 1: Hello, World!
 Write a program that prints "Hello, World!" to the console.
 
-### Task 2: Table of Two Numbers
+### Task 2: Sum of Two Numbers
 Write a program that takes two numbers as input and prints their sum.
 
 ### Task 3: Swap Two Numbers
