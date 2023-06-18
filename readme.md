@@ -18,7 +18,8 @@ and learn how it works, what are the best practices etc..
 [8. Merge branch](#8-merge-branch)\
 [9. Push code](#9-push-code)\
 [10. Submit your changes for review](#10-submit-your-changes-for-review)\
-[11. Some useful repos to start with](#🌠some-useful-repos🚀)
+[11. Some useful repos to start with](#🌠some-useful-repos🚀)\
+[12. Git Cheat Sheet](https://github.com/UzairHussain193/Get_Start_with_Contributions_Uzair_Hussain/blob/master/git_cheat_sheet.md)
 
 
 ## How can I Contribute?
