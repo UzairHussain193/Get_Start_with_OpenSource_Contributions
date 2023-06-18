@@ -17,15 +17,21 @@ and learn how it works, what are the best practices etc..
 [7. Switching branch](#7-switch-branch)\
 [8. Merge branch](#8-merge-branch)\
 [9. Push code](#9-push-code)\
-[10. Submit your changes for review](#10-submit-your-changes-for-review)\
-[11. Some useful repos to start with](#🌠some-useful-repos🚀)\
-[12. Git Cheat Sheet](https://github.com/UzairHussain193/Get_Start_with_Contributions_Uzair_Hussain/blob/master/git_cheat_sheet.md)
+[10. Submit your changes for review](#10-submit-your-changes-for-review)
 
 
 ## How can I Contribute?
 
 1. You can contribute in terms of Code
 2. You can contribute in terms of improving Documentation
+
+# Some other repos to start your open source journey
+
+Some useful repos to start with [ Check Here](#🌠some-useful-repos🚀)
+
+# Git Commands
+Click to see the git commands you have to learn [Git Cheat Sheet](https://github.com/UzairHussain193/Get_Start_with_Contributions_Uzair_Hussain/blob/master/git_cheat_sheet.md)
+
 
 ## Basics of Git and GitHub
 
