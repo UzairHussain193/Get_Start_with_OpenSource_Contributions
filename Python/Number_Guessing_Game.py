@@ -10,19 +10,32 @@
 
 import random
 
-# Generate a random number
-secret_number = random.randint(1, 10)
+def play_game():
+    # Generate a random number
+    secret_number = random.randint(1, 100)
 
-# Game loop
-while True:
-    # Prompt the user to guess the number
-    guess = int(input("Guess the number (between 1 and 10): "))
+    # Set the maximum number of attempts
+    max_attempts = 5
+    attempts = 0
 
-    # Provide feedback to the user
-    if guess < secret_number:
-        print("Too low! Try again.")
-    elif guess > secret_number:
-        print("Too high! Try again.")
-    else:
-        print("Congratulations! You guessed the number correctly.")
-        break
+    # Game loop
+    while attempts < max_attempts:
+        # Prompt the user to guess the number
+        guess = int(input("Guess the number (between 1 and 100): "))
+
+        # Provide feedback to the user
+        if guess < secret_number:
+            print("Too low! Try again.")
+        elif guess > secret_number:
+            print("Too high! Try again.")
+        else:
+            print("Congratulations! You guessed the number correctly.")
+            return
+
+        attempts += 1
+
+    print("Sorry, you ran out of attempts. The number was", secret_number)
+
+# Call the function to start the game
+play_game()
+
