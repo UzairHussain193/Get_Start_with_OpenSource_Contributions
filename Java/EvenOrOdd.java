@@ -27,6 +27,6 @@ public class EvenOrOdd {
         } else {
             System.out.println("The number is odd.");
         }
-        
+        scanner.close();
     }
 }

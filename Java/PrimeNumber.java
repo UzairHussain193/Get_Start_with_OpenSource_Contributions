@@ -24,5 +24,7 @@ public class PrimeNumber {
         }
         
         System.out.println(number + " is a prime number");
+
+        scanner.close();
     }
 }

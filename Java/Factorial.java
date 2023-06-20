@@ -13,6 +13,7 @@ public class Factorial{
      Scanner sc = new Scanner(System.in);
      int n = sc.nextInt();
      System.out.println("The factorial of " + n + " is " + factorial(n));
+    sc.close();
     }   
 
     public static int factorial(int n){
