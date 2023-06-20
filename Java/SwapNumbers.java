@@ -28,5 +28,7 @@ public class SwapNumbers {
         System.out.println("After swapping:");
         System.out.println("First number: " + number1);
         System.out.println("Second number: " + number2);
+        
+        scanner.close();
     }
 }
