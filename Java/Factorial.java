@@ -16,10 +16,10 @@ public class Factorial{
     }   
 
     public static int factorial(int n){
-        int factorial = 1;
-        while(n>0){
-           factorial=factorial*n;
-           n--;
+        int factorial = 1; //Start from 1
+        while(n>0){  //Run the loop as long as n is not 0 
+           factorial=factorial*n;  //multiply n with the factorial variable
+           n--; //decrease value of n
         }
         return factorial;
     }
