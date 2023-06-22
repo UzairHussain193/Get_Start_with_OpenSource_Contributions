@@ -21,8 +21,8 @@ int main() {
 	num2 = temp;
 	
 	//Display output
-    cout << "After swapping, the first number is: " << num1 << std::endl;
-    cout << "After swapping, the second number is: " << num2 << std::endl;
+    cout << "After swapping, the first number is: " << num1 << endl;
+    cout << "After swapping, the second number is: " << num2 << endl;
 
     return 0;
 }
