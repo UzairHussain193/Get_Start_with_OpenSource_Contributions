@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Rock Paper Scissors</title>
+  <style>
+    body {
+      text-align: center;
+    }
+
+    img {
+      width: 100px;
+      margin: 10px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  <h1>Rock Paper Scissors</h1>
+  <p>Click on one of the options below:</p>
+  <img src="rock.png" alt="Rock" onclick="playGame('rock')">
+  <img src="paper.png" alt="Paper" onclick="playGame('paper')">
+  <img src="scissors.png" alt="Scissors" onclick="playGame('scissors')">
+  <div id="result"></div>
+
+  <script>
+    function playGame(userChoice) {
+      const choices = ["rock", "paper", "scissors"];
+      let computerChoice = choices[Math.floor(Math.random() * choices.length)];
+
+      let result = "";
+
+      if (userChoice === computerChoice) {
+        result = "It's a tie!";
+      } else if (
+        (userChoice === "rock" && computerChoice === "scissors") ||
+        (userChoice === "paper" && computerChoice === "rock") ||
+        (userChoice === "scissors" && computerChoice === "paper")
+      ) {
+        result = "You win!";
+      } else {
+        result = "You lose!";
+      }
+
+      document.getElementById("result").innerText = "Computer chose: " + computerChoice + "\n" + result;
+    }
+  </script>
+</body>
+</html>
