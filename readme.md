@@ -40,6 +40,11 @@ Please note that we have a [Code of Conduct](code_of_conduct.md) that we expect 
 
 If you have any questions or need assistance with your contributions, please don't hesitate to [contact us](https://github.com/UzairHussain193/Get_Start_with_OpenSource_Contributions/issues) through GitHub issues. We're here to help you contribute effectively.
 
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LISENCE.md) file for details.
+
+
 Let's make this repository a vibrant and collaborative space for all AI and Data Science enthusiasts. Happy hacking! 🚀
 
 
