@@ -4,8 +4,6 @@ and learn how it works, what are the best practices etc..
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 
-<img align="right" width="300" src="poster.png" alt="fork this repository" />
-
 ## Contents
 
 
