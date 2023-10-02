@@ -179,6 +179,11 @@ Soon I'll be merging all your changes into the main branch of this project. You 
 
 Fantastic! You've already made your first contribution.🥳
   
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](/LISENCE.md) file for details.
+
+
 ---
 # 🌠Some Useful Repos.🚀
 
