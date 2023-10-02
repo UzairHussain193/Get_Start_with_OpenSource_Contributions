@@ -1,12 +1,11 @@
 # Welcome to Get Started with Open Source Contribution Repository.
-This repository is a collection of resources for beginners who want to contribute in open source projects and learn how it works, what are the best practices  during the best time for open source which is hactoberfest 2023.
+This repository is a collection of resources for beginners who want to contribute in open source projects
+and learn how it works, what are the best practices etc..
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 
-# Rules and resources for Hactoberfest 2023:
-- Registration [here](https://hacktoberfest.com) to participate on Hactoberfest 2022.
-- Get [Resources](https://hacktoberfest.com/participation) from official website.
----
+<img align="right" width="300" src="poster.png" alt="fork this repository" />
+
 ## Contents
 
 
