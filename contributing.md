@@ -73,7 +73,7 @@ This is an important step to mark your commits to your name and email.
 
 You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 
-![Fork](fork.png)
+![Fork](/images/fork.png)
 
 
 Click on fork to create a copy of project to your account. This creates a separate copy for you to work on.
@@ -84,7 +84,7 @@ Click on fork to create a copy of project to your account. This creates a separa
 
 You have forked the project you want to contribute to your github account. To get this project on your development machine we use clone command of git.
 
-![clone](clone.png)
+![clone](images/clone.png)
 
 ```
 git clone https://github.com/your-username/Get_Start_with_OpenSource_Contributions.git
