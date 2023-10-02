@@ -9,17 +9,6 @@ This repository is a collection of resources for beginners who want to contribut
 ---
 ## Contents
 
-[1. Fork a project](#1-fork-a-project)\
-[2. Clone the forked project](#2-clone-the-forked-project)\
-[3. Create a new branch](#3-create-a-new-branch)\
-[4. Make Useful Changes](#4-make-changes)\
-[5. Stagging or Adding Chnages](#5-stagingadding-changes)\
-[6. Commit Changes](#6-commit-changes)\
-[7. Switching branch](#7-switch-branch)\
-[8. Merge branch](#8-merge-branch)\
-[9. Push code](#9-push-code)\
-[10. Submit your changes for review](#10-submit-your-changes-for-review)
-
 
 ## How can I Contribute?
 
