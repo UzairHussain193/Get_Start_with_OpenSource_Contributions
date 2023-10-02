@@ -1,10 +1,8 @@
 # Welcome to Get Started with Open Source Contribution Repository.
-This repository is a collection of resources for beginners who want to contribute in open source projects
-and learn how it works, what are the best practices etc..
+This repository is a collection of resources for beginners who want to contribute in open-source projects
+and learn how it works, what are the best practices, etc..
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
-
-<img align="right" width="300" src="poster.png" alt="fork this repository" />
 
 ## Contents
 
