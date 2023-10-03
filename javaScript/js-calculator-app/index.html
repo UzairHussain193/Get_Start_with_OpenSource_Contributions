@@ -1,0 +1,51 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Js-Simple-Calculator</title>
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <h2 class="h2">Js Simple Calculator</h2>
+        <div class="row">
+            <input class="input" readonly type="tel" id="inputResult">
+        </div>
+        <div class="row">
+            <button id="numbers" onclick="setNumber('7')">7</button>
+            <button id="numbers" onclick="setNumber('8')">8</button>
+            <button id="numbers" onclick="setNumber('9')">9</button>
+            <button class="btn1" id="symbol" onclick="del()"> ⌫</button>
+        </div>
+        <div class="row">
+            <button id="numbers" onclick="setNumber('4')">4</button>
+            <button id="numbers" onclick="setNumber('5')">5</button>
+            <button id="numbers" onclick="setNumber('6')">6</button>
+            <button class="btn1" id="symbol" onclick="setNumber('*')"> ✖️</button>
+        </div>
+        <div class="row">
+            <button id="numbers" onclick="setNumber('1')">1</button>
+            <button id="numbers" onclick="setNumber('2')">2</button>
+            <button id="numbers" onclick="setNumber('3')">3</button>
+            <button class="btn1" id="symbol" onclick="setNumber('/')"> ➗</button>
+        </div>
+        <div class="row">
+            <button class="zero" onclick="setNumber('0')">0</button>
+            <button class="btn1" id="symbol" onclick="setNumber('+')"> ➕</button>
+            <button class="btn1" id="symbol" onclick="setNumber('-')"> ➖</button>
+        </div>
+        <div class="row">
+            <button class="btn3" id="symbol" onclick="clearResult('')">Clear</button>
+            <button class="btn2" id="numbers" onclick="getResult('=')"> = </button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+
+</html>

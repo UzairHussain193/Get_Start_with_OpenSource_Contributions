@@ -1,0 +1,53 @@
+* {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans';
+}
+.container{
+    margin-top: 80px;
+}
+.h2 {
+  text-align: center;
+}
+.row {
+  display: flex;
+  justify-content: center;
+}
+.input {
+  width: 243px;
+  height: 40px;
+  border: 2px solid;
+  /* border-radius: 20px 20px; */
+}
+button {
+    margin: 5px 2px 2px 2px;
+    padding: 10px;
+    width: 60px;
+    border: 2px white;
+    cursor: pointer;
+}
+.zero{
+    margin: 5px 2px 2px 2px;
+    padding: 10px;
+    width: 60px;
+    border: 2px white;
+    width: 127px;
+}
+.btn2{
+    background-color: rgb(0, 149, 255);
+    color: white;
+    border-radius: 25px 2px 2px 2px;
+    width: 125px;
+}
+.btn3{
+    background-color: rgb(255, 13, 0);
+    color: white; 
+    border-radius: 2px 2px 25px 2px ;
+    width: 125px;
+}
+.btn2:hover{
+    background-color: rgb(0, 149, 255);}
+.btn3:hover{
+    background-color: rgb(255, 13, 0);
+}
+button:hover{
+    background-color: rgb(215, 210, 210);
+}
