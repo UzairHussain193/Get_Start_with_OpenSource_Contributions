@@ -4,7 +4,7 @@ Thank you for considering contributing to our repository. We welcome contributio
 
 ## Contents
 
-[1. Fork a project](#1-fork-a-project)\
+[1. Star and Fork a project](#1-star-and-fork-a-project)\
 [2. Clone the forked project](#2-clone-the-forked-project)\
 [3. Create a new branch](#3-create-a-new-branch)\
 [4. Make Useful Changes](#4-make-changes)\
@@ -69,7 +69,7 @@ This is an important step to mark your commits to your name and email.
 
 ---
 
-## 1. Fork a project
+## 1. Star and Fork a project
 
 You can make a copy of the project to your account. This process is called forking a project to your Github account. On Upper right side of project page on Github, you can see -
 
