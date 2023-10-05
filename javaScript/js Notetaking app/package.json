@@ -1,0 +1,17 @@
+{
+  "name": "notes-app",
+  "version": "1.0.0",
+  "description": "Basic notes taking app",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shalavya Agrawal",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "nodemon": "^3.0.1",
+    "validator": "^10.8.0",
+    "yargs": "^17.7.2"
+  }
+}
