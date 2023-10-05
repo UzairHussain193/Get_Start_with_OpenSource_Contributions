@@ -1,6 +1,5 @@
 # Welcome to Get Started with Open Source Contribution Repository.
-This repository is a collection of resources for beginners who want to contribute in open source projects
-and learn how it works, what are the best practices etc..
+This repository is maintained for hactoberfest 2023 and a collection of resources for beginners who want to contribute in open source projects and learn how it works, what are the best practices etc..
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 
@@ -46,7 +45,6 @@ This project is licensed under the MIT License - see the [LICENSE](LISENCE.md) f
 
 
 Let's make this repository a vibrant and collaborative space for all AI and Data Science enthusiasts. Happy hacking! 🚀
-
 
 #### BE OPEN!
 
