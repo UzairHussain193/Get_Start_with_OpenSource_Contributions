@@ -15,4 +15,10 @@ Create a program that generates a random password based on user-specified criter
 ### Task 5. Grade Calculator
 Develop a program that calculates the average grade based on individual test scores. The program should ask the user for test scores and display the average to the user.
 
+### Task 6. Email Validation. 
+Develop an email validator using string functions. The program checks whether the entered email is valid or not.
+
+### Task 7. Email Slicer.
+Develop an email slicer in Python. A program that takes particular email and slices it into the username, domain and extension.
+
 ## Happy Coding!
