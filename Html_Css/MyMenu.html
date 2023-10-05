@@ -1,68 +1,104 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Little Lemon</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Restaurant Menu</title>
     <style>
-        *{
-            font-family: 'Times New Roman', Times, serif;
-            font-size: large;
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
         }
-        img{
-            width: 150px;
-            margin-top: 20px;
 
+        header {
+            text-align: center;
+            padding: 20px 0;
+            background-color: #333;
+            color: white;
         }
-        #font{
-            font-weight: 600;
+
+        .menu-container {
+            display: flex;
+            justify-content: space-around;
+            padding: 20px;
+            flex-wrap: wrap;
         }
-        #btn{
-            margin-right: 150px;
+
+        .section {
+            flex: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
+
+        .section h2 {
+            text-align: center;
+        }
+
+        .item {
+            margin: 10px 0;
+            padding: 10px 0;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .item:last-child {
+            border-bottom: none;
+        }
+
+        .dropdown {
+            display: none;
+        }
+
+        .show-dropdown:hover .dropdown {
+            display: block;
+        }
+        .item:hover {
+        background-color: #ffcccb; /* Change to your desired background color */
+        cursor: pointer;}
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <img src="https://w7.pngwing.com/pngs/88/724/png-transparent-restaurant-menu-text-restaurant-menu-icon-restaurant-menu-design-logo-logo-flag-food-free-logo-design-template-thumbnail.png" class="img-fluid">
+    <header>
+        <h1>Restaurant Menu</h1>
+    </header>
+    <div class="menu-container">
+        <div class="section">
+            <h2>Appetizers</h2>
+            <div class="item">Appetizer 1 - $5.99</div>
+            <div class="item">Appetizer 2 - $6.99</div>
+            <div class="item show-dropdown" onmouseover="showAppetizerInfo()" onmouseout="hideAppetizerInfo()">Appetizer 3 - $4.99
+                <div class="dropdown" id="appetizer-info">
+                    <p>Appetizer 3 Description: Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                    <p>Appetizer 3 Ingredients: Ingredient 1, Ingredient 2, Ingredient 3</p>
                 </div>
             </div>
         </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <h1>Our Menu</h1>
-                </div>
-                <div class="alert alert-warning text-center" role="alert" id="font" >
-                    Our restaurant will be closed on New Year's Day
-                </div>
-            </div>
+        <div class="section">
+            <h2>Main Courses</h2>
+            <div class="item">Main Course 1 - $12.99</div>
+            <div class="item">Main Course 2 - $14.99</div>
+            <div class="item">Main Course 3 - $16.99</div>
         </div>
-        <div class="row">
-            <div class="col-12 col-lg-6">
-                <h2>Falafel <span class="badge bg-warning text-light">New</span></h2>
-                <p>Chickpea, herbs, spices.</p>
-                <h2>Fried Calamari</h2>
-                <p>Squid, buttermilk.</p>
-            </div>
-            <div class="col-12 col-lg-6">
-                <h2>Pasta Salad</h2>
-                <p>Lettuce, vegetables, mozzarella.</p>
-                <h2>Greek Salad</h2>
-                <p>Cucumbers, onion, feta cheese.</p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-12">
-                <div class="text-center">
-                    <button type="button" class="btn btn-info" id="btn">
-                        Order Online
-                    </button>
-                </div>
-            </div>
+        <div class="section">
+            <h2>Desserts</h2>
+            <div class="item">Dessert 1 - $7.99</div>
+            <div class="item">Dessert 2 - $6.99</div>
+            <div class="item">Dessert 3 - $8.99</div>
         </div>
     </div>
+
+    <script>
+        function showAppetizerInfo() {
+            document.getElementById('appetizer-info').style.display = 'block';
+        }
+
+        function hideAppetizerInfo() {
+            document.getElementById('appetizer-info').style.display = 'none';
+        }
+    </script>
 </body>
 </html>
