@@ -47,8 +47,6 @@ This project is licensed under the MIT License - see the [LICENSE](LISENCE.md) f
 
 Let's make this repository a vibrant and collaborative space for all AI and Data Science enthusiasts. Happy hacking! 🚀
 
-[<img src="https://github.com/{{ uzairhussain193 }}.png" width="60px;"/><br /><sub><ahref="https://github.com/{{ uzairhussain193 }}">{{ contributor }}</a></sub>](https://github.com/{{ uzairhussain193 }}/{{ Get_Start_with_OpenSource_Contributions }}
-
 
 #### BE OPEN!
 
