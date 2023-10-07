@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hacktoberfest FAQ</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            margin: 0;
+            padding: 0;
+        }
+        h1 {
+            text-align: center;
+            margin-top: 20px;
+            color: #333;
+        }
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            border-radius: 5px;
+        }
+        .faq-item {
+            margin-bottom: 20px;
+        }
+        .question {
+            font-weight: bold;
+            cursor: pointer;
+            color: #007BFF;
+        }
+        .answer {
+            display: none;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Hacktoberfest FAQ</h1>
+
+    <div class="faq-container">
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">Q: What is Hacktoberfest?</div>
+            <div class="answer">A: Hacktoberfest is a month-long celebration of open source software. It encourages people to contribute to open source projects on platforms like GitHub and rewards them with swag and prizes.</div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">Q: How do I participate in Hacktoberfest?</div>
+            <div class="answer">A: To participate in Hacktoberfest, you need to:
+                <ol>
+                    <li>Register on the Hacktoberfest website.</li>
+                    <li>Find open source projects on GitHub.</li>
+                    <li>Make at least four valid pull requests in October.</li>
+                    <li>Check your progress on the Hacktoberfest website.</li>
+                </ol>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">Q: What qualifies as a valid pull request?</div>
+            <div class="answer">A: A valid pull request for Hacktoberfest should:
+                <ul>
+                    <li>Be made in a public repository on GitHub.</li>
+                    <li>Include meaningful changes (e.g., code improvements, bug fixes, documentation).</li>
+                    <li>Be accepted or merged by the project maintainers.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <div class="question" onclick="toggleAnswer(this)">Q: What are the rewards for participating?</div>
+            <div class="answer">A: Rewards may vary from year to year, but typically include t-shirts, stickers, and other Hacktoberfest swag. Check the Hacktoberfest website for the current year's rewards.</div>
+        </div>
+    </div>
+
+    <script>
+        function toggleAnswer(question) {
+            const answer = question.nextElementSibling;
+            if (answer.style.display === 'block') {
+                answer.style.display = 'none';
+            } else {
+                answer.style.display = 'block';
+            }
+        }
+    </script>
+</body>
+</html>
