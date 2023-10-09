@@ -1,5 +1,5 @@
 # Welcome to Get Started with Open Source Contribution Repository.
-This repository is maintained for Hactoberfest 2023 and a collection of resources for beginners who want to contribute in open source projects and learn how it works, what are the best practices etc.
+This repository is maintained for Hactoberfest 2023 and a collection of resources for beginners who want to contribute in open source projects and learn how it works, what are the best practices to contribute in these real time tasks and projects etc.
 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
 [![GitHub stars](https://img.shields.io/github/stars/yourusername/your-repository.svg?style=social&label=Star)](https://github.com/UzairHussain193/Get_Start_with_OpenSource_Contributions)
