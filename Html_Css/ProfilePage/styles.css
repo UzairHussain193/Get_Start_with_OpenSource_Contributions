@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 50px;
+}
+
+.profile-container {
+  max-width: 400px;
+  margin: auto;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+img {
+  border-radius: 50%;
+  max-width: 100%;
+}
+
+h1 {
+  margin: 10px 0;
+}
+
+.bio {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.social-links a {
+  display: inline-block;
+  text-decoration: none;
+  color: #333;
+  background-color: #f5f5f5;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  transition: background-color 0.3s;
+}
+
+.social-links a:hover {
+  background-color: #ddd;
+}

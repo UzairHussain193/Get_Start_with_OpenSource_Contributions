@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Contact Form</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="page">
+    <form class="form" onsubmit="return validateForm()">
+      <h1>Contact Form</h1>
+      <label for="name">Name:</label>
+      <input type="text" placeholder="Enter your name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" placeholder="Enter your email" required />
+
+      <label for="message">Message:</label>
+      <textarea placeholder="Enter your message" required></textarea>
+
+      <input type="submit" value="Submit" />
+    </form>
+
+    <script src="script.js"></script>
+  </body>
+</html>
