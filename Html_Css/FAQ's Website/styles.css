@@ -29,6 +29,7 @@
   .answer {
     display: none;
     padding: 10px;
+    text-align: left;
   }
   
   .answer p {
