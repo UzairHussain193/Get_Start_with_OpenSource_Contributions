@@ -1,0 +1,78 @@
+#include <iostream>
+using namespace std;
+
+double celsiusToFahrenheit(double celsius) {
+    return (celsius * 9 / 5) + 32;
+}
+
+double celsiusToKelvin(double celsius) {
+    return celsius + 273.15;
+}
+
+double fahrenheitToCelsius(double fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
+}
+
+double fahrenheitToKelvin(double fahrenheit) {
+    return (fahrenheit + 459.67) * 5 / 9;
+}
+
+double kelvinToCelsius(double kelvin) {
+    return kelvin - 273.15;
+}
+
+double kelvinToFahrenheit(double kelvin) {
+    return (kelvin * 9 / 5) - 459.67;
+}
+
+int main() {
+    int choice;
+    double temperature;
+
+    cout << "Temperature Conversion Program" << endl;
+    cout << "1. Celsius to Fahrenheit" << endl;
+    cout << "2. Celsius to Kelvin" << endl;
+    cout << "3. Fahrenheit to Celsius" << endl;
+    cout << "4. Fahrenheit to Kelvin" << endl;
+    cout << "5. Kelvin to Celsius" << endl;
+    cout << "6. Kelvin to Fahrenheit" << endl;
+    cout << "0. Exit" << endl;
+
+    while (true) {
+        cout << "Enter your choice: ";
+        cin >> choice;
+
+        if (choice == 0) {
+            cout << "Goodbye!" << endl;
+            break;
+        }
+
+        cout << "Enter the temperature: ";
+        cin >> temperature;
+
+        switch (choice) {
+            case 1:
+                cout << temperature << " Celsius is " << celsiusToFahrenheit(temperature) << " Fahrenheit" << endl;
+                break;
+            case 2:
+                cout << temperature << " Celsius is " << celsiusToKelvin(temperature) << " Kelvin" << endl;
+                break;
+            case 3:
+                cout << temperature << " Fahrenheit is " << fahrenheitToCelsius(temperature) << " Celsius" << endl;
+                break;
+            case 4:
+                cout << temperature << " Fahrenheit is " << fahrenheitToKelvin(temperature) << " Kelvin" << endl;
+                break;
+            case 5:
+                cout << temperature << " Kelvin is " << kelvinToCelsius(temperature) << " Celsius" << endl;
+                break;
+            case 6:
+                cout << temperature << " Kelvin is " << kelvinToFahrenheit(temperature) << " Fahrenheit" << endl;
+                break;
+            default:
+                cout << "Invalid choice. Please select a valid option." << endl;
+        }
+    }
+
+    return 0;
+}
