@@ -1,6 +1,13 @@
 #include <iostream>
 using namespace std;
 
+//To swap without using a third variable
+void swap2(int &num1,int &num2){
+	num1^=num2;
+	num2^=num1;
+	num1^=num2;
+}
+
 int main() {
     int num1, num2, temp;
 	
@@ -21,6 +28,10 @@ int main() {
 	num2 = temp;
 	
 	//Display output
+    cout << "After swapping, the first number is: " << num1 << endl;
+    cout << "After swapping, the second number is: " << num2 << endl;
+    cout << "Swapping them again..\n";
+    swap2(num2,num1);
     cout << "After swapping, the first number is: " << num1 << endl;
     cout << "After swapping, the second number is: " << num2 << endl;
 
